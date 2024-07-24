@@ -1,0 +1,39 @@
+.main-div {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+    align-items: center;
+}
+
+.dice-banner {
+    width: 649px;
+    height: 522px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 96px;
+    line-height: 144px;
+    font-weight: 700;
+}
+
+.game-name {
+    margin: 0;
+}
+
+.play-btn {
+    border: none;
+    background: black;
+    color: white;
+    width: 220px;
+    height: 44px;
+    border-radius: 5px;
+    padding: 10px 18px;
+    font-size: 24px;
+}
+
+.play-btn:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,70 @@
+.game-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  height: 450px;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+}
+
+.rolling:hover {
+  cursor: pointer;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .rotating-dice {
+    animation: App-logo-spin 2.5s ease;
+  }
+} */
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+  
+.rotating-dice {
+  animation: rotate 0.2s linear infinite;
+}
+
+.text-below-dice {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  margin: 0;
+}
+
+.rules-btn {
+  border: none;
+  background: black;
+  color: white;
+  width: 220px;
+  height: 44px;
+  border-radius: 5px;
+  padding: 10px 18px;
+  font-size: 24px;
+}
+
+.score-btn {
+  border: 1px solid black;
+  background: white;
+  color: black;
+  width: 220px;
+  height: 44px;
+  border-radius: 5px;
+  padding: 10px 18px;
+  font-size: 24px;
+}
+
+.score-btn:hover,
+.rules-btn:hover {
+  cursor: pointer;
+}

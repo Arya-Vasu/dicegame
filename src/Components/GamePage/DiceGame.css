@@ -1,0 +1,85 @@
+.main-game-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.error-msg {
+    margin: 0;
+    position: absolute;
+    top: 28px;
+    right: 90px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FF0C0C;
+}
+
+.header {
+    margin-top: 64px;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 675px;
+}
+
+.total-score {
+    width: 135px;
+    height: 151px;
+}
+
+.score {
+    font-size:100px;
+    font-weight: 500;
+    margin: 0;
+    height: 112px;
+}
+
+.text {
+    font-size:24px;
+    font-weight: 500;
+    line-height: 36px;
+    height: 36px;
+    margin: 0;
+}
+
+.numbers {
+    width: 552px;
+    height: 138px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.buttons {
+    displaY: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 72px;
+    height: 72px;
+    border: 1px solid black;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.buttons-text {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}

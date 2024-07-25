@@ -17,18 +17,24 @@ export function DiceGame() {
 
   return (
     <div className="main-game-div">
-      <p
+      {/* <p
         className="error-msg"
         style={{ display: showError ? "block" : "none" }}
       >
         You have not selected any number
-      </p>
+      </p> */}
       <div className="header">
         <div className="total-score">
           <p className="score">{total}</p>
           <p className="text">Total Score</p>
         </div>
         <div className="numbers">
+          <p
+            className="error-msg"
+            style={{ visibility: showError ? "visible" : "hidden" }}
+          >
+            You have not selected any number
+          </p>
           <div className="buttons">
             {[1, 2, 3, 4, 5, 6].map((index) => (
               <button
@@ -48,7 +54,7 @@ export function DiceGame() {
         </div>
       </div>
       <Game
-      total={total}
+        total={total}
         setTotal={setTotal}
         showRules={showRules}
         setShowRules={setShowRules}

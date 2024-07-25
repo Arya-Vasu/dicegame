@@ -16,12 +16,6 @@ img {
   cursor: pointer;
 }
 
-/* @media (prefers-reduced-motion: no-preference) {
-  .rotating-dice {
-    animation: App-logo-spin 2.5s ease;
-  }
-} */
-
 @keyframes rotate {
   from {
     transform: rotate(0deg);
@@ -67,4 +61,37 @@ img {
 .score-btn:hover,
 .rules-btn:hover {
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1439px) and (min-width: 1024px) {
+  img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .game-main{
+    height: 350px;
+  }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  img {
+    width: 175px;
+    height: 175px;
+  }
+
+  .game-main{
+    height: 350px;
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+  img {
+    width: 125px;
+    height: 125px;
+  }
+
+  .game-main{
+    height: 300px;
+  }
 }

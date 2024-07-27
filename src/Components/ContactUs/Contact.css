@@ -1,0 +1,302 @@
+.dices-image {
+  height: 72px;
+  width: 72px;
+  padding-left: 5%;
+}
+
+.content-container {
+  padding-left: 10%;
+}
+
+.content-container > h1 {
+  font-size: 48px;
+  line-height: 72px;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+
+.content-text {
+  width: 75%;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.contact-form-main-div {
+  width: 85%;
+  margin-left: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.contact-form {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  gap: 50px;
+}
+
+.form-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+
+.two-btns {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-btns > button {
+  width: 48%;
+  height: 44px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.one-btn {
+  width: 100%;
+}
+
+.email-btn {
+  width: 100%;
+  height: 44px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  background: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.form-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 95%;
+}
+
+#outlined-basic {
+  height: 75%;
+}
+
+.form-button {
+  width: 95%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.submit-btn {
+  width: 48%;
+  height: 44px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  background: black;
+  color: white;
+}
+
+.contact-image {
+  width: 50%;
+  height: 650px;
+}
+
+.contact-main-image {
+  width: 100%;
+  height: 100%;
+  object-fit: stretch;
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1024px) {
+  .contact-form {
+    gap: 35px;
+  }
+
+  .form-header {
+    gap: 20px;
+  }
+
+  .two-btns > button {
+    height: 38px;
+  }
+
+  .email-btn {
+    height: 38px;
+  }
+
+  .form-fields {
+    gap: 20px;
+  }
+
+  .submit-btn {
+    height: 38px;
+  }
+
+  .contact-image {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 900px) {
+  .contact-form {
+    width: 50%;
+    gap: 25px;
+  }
+
+  .form-header {
+    gap: 20px;
+  }
+
+  .two-btns > button {
+    height: 32px;
+    font-size: 12px;
+  }
+
+  .email-btn {
+    height: 32px;
+    font-size: 12px;
+  }
+
+  .form-fields {
+    gap: 20px;
+  }
+
+  .submit-btn {
+    height: 32px;
+  }
+
+  .contact-image {
+    width: 50%;
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 900px) and (min-width: 580px) {
+  .content-text {
+    width: 85%;
+  }
+
+  .contact-form-main-div {
+    flex-direction: column-reverse;
+  }
+
+  .contact-form {
+    width: 95%;
+    gap: 25px;
+  }
+
+  .form-header {
+    gap: 20px;
+  }
+
+  .two-btns > button {
+    height: 32px;
+    font-size: 16px;
+  }
+
+  .email-btn {
+    height: 32px;
+    font-size: 16px;
+  }
+
+  .form-fields {
+    gap: 20px;
+  }
+
+  .submit-btn {
+    height: 32px;
+  }
+
+  .contact-image {
+    width: 100%;
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .contact-form-main-div {
+    flex-direction: column-reverse;
+  }
+
+  .contact-form {
+    width: 80%;
+    gap: 25px;
+  }
+
+  .form-header {
+    gap: 16px;
+  }
+
+  .two-btns {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .two-btns > button {
+    width: 100%;
+    height: 32px;
+    font-size: 16px;
+  }
+
+  .email-btn {
+    height: 32px;
+    font-size: 16px;
+  }
+
+  .form-fields {
+    gap: 16px;
+  }
+
+  .submit-btn {
+    height: 32px;
+  }
+
+  .contact-image {
+    width: 90%;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .dices-image {
+    width: 50px;
+    height: 50px;
+  }
+
+  .content-container > h1 {
+    font-size: 36px;
+    line-height: 64px;
+    font-weight: 700;
+  }
+
+  .content-text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .contact-image {
+    height: 250px;
+  }
+}

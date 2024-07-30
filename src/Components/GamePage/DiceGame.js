@@ -17,12 +17,6 @@ export function DiceGame() {
 
   return (
     <div className="main-game-div">
-      {/* <p
-        className="error-msg"
-        style={{ display: showError ? "block" : "none" }}
-      >
-        You have not selected any number
-      </p> */}
       <div className="header">
         <div className="total-score">
           <p className="score">{total}</p>

@@ -184,7 +184,7 @@
 }
 
 /* @media only screen and (max-width: 424px) and (min-width: 320px) { */
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 425px) {
   .header {
     gap: 0;
     flex-direction: column;

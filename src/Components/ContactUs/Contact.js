@@ -5,12 +5,14 @@ import { Icon } from "@mui/material";
 import MessageIcon from "@mui/icons-material/Message";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import TextField from "@mui/material/TextField";
+import { useNavigate } from "react-router-dom";
 
 export function Contact() {
+  const navigate = useNavigate();
   return (
     <div className="contact-page">
       <div className="contact-header">
-        <img className="dices-image" src={dices} alt={dices} />
+        <img className="dices-image" src={dices} alt="HomePage" onClick={() => navigate("/")} />
       </div>
       <div className="content-container">
         <h1>CONTACT US</h1>
